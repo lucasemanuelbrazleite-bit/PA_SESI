@@ -1,0 +1,47 @@
+*{  /*o "*" é para o aplicar a todo elemento a mesma característica */
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(100, 149, 237);
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    margin:bottom;
+}
+
+
+.asi{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    margin: left;
+    justify-content: flex-start;
+}
+
+.art{
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin:auto;
+}
+
+.foot{
+    background-color: rgb(255, 255, 255);
+    justify-content: bottom;
+    width: 200px;
+    height: 200px;
+}
