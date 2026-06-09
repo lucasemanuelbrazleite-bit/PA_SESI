@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <!--SEMPRE OLHAR O CONSOLE SE NÃO ESTIVER DANDO CERTO, SEMPREEEEEEEE-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -8,7 +8,6 @@
 </head>
 <body>
     <input type="text" placeholder="Digite seu nome... " id="nome"> <!--usa-se placeholder para colocar o texto dentro do input--> <!--O id é para conseguir buscar o dado no js-->
-    <script src="script.js"></script>
     <button onclick="exibirNome()">Enviar</button> <!--O onclick serve para fazer com que a função funcione ao ser apertado o botão--> <!--lembrar de coloca o parenteses pro código entender que é uma função-->
     <div>
         <input type="text" id="valorA" placeholder="valor A">
@@ -18,5 +17,9 @@
         <button onclick="Mult()">Multiplicação</button>
         <button onclick="Div()">Divisão</button>
     </div>
+    <div>
+        <h1>Resultado:<span id="resultado"></span></h1> <!--O span é só pra dizer aonde tu vai colocar a informação e encontrar elemento do html pro js-->
+    </div>
+    <script src="script.js"></script> <!--LEMBRAR NUNCA COLOCAR O SCRIPT SRC NO COMEÇO, ELE SEMPRE VAI SER NO FINAL DO BODY-->
 </body>
 </html>
