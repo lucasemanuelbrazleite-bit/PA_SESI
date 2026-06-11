@@ -8,8 +8,8 @@
 <body>
     <form id="formulario">
         <label for="nome">Nome:</label> <!--É mais para a questão de acessibilidade e é o que gera o -->
-        <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
-        <br>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome..."> 
+        <br> <!--lembrando o br é pra pular linha-->
         <label for="sobrenome">Sobrenome:</label>
         <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome...">
         <br>
@@ -18,6 +18,10 @@
         <br>
         <label for="profissao">Profissão:</label>
         <input type="text" name="profissao" id="profissao" placeholder="Digite sua profissão...">
+        <br>
+        <input type="submit" value="Cadastrar">
     </form>
+    <p id="resposta"></p> <!--deixa vazio apenas com o id pra ser puxado pelo js, e devolver a respota-->
+    <script src="script.js"></script>
 </body>
 </html>
