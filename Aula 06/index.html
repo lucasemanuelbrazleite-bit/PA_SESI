@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <input type="text" placeholder="Digite seu nome... " id="nome"> <!--usa-se placeholder para colocar o texto dentro do input--> <!--O id é para conseguir buscar o dado no js-->
     <script src="script.js"></script>
+    <button onclick="exibirNome()">Enviar</button> <!--O onclick serve para fazer com que a função funcione ao ser apertado o botão--> <!--lembrar de coloca o parenteses pro código entender que é uma função-->
+    <div>
+        <input type="text" id="valorA" placeholder="valor A">
+        <input type="text" id="valorB" placeholder="valor B">
+        <button onclick="Somar()">Somar</button>
+        <button onclick="Sub()">Subtração</button>
+        <button onclick="Mult()">Multiplicação</button>
+        <button onclick="Div()">Divisão</button>
+    </div>
 </body>
 </html>
